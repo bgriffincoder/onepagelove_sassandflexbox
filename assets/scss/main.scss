@@ -1,0 +1,147 @@
+/*main.scss*/
+
+* {
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+}
+
+.box1 {background-color: #ff3a2c;}
+.box2 {background-color: #191a19;}
+.box3 {background-color: #65edd7;}
+.box4 {background-color: #ffed00;}
+.box5 {background-color: #187a8b;}
+.box6 {background-color: #171619;}
+.box7 {background-color: #f90001;}
+.box8 {background-color: #f0f1f0;}
+.box9 {background-color: #323332;}
+.box10 {background-color: #007fe4;}
+.box11 {background-color: #dfe0df;}
+.box12 {background-color: #282424;}
+.box13 {background-color: #bc0038;}
+.box14 {background-color: #ffc900;}
+.box15 {background-color: #b1b2b1;}
+.box16 {background-color: #227c1b;}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  height: 310px;
+}
+
+#masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
+  }
+}
+
+.nav-links2 {
+  padding-left:10px;
+}
+
+#nav-list {
+  flex-direction: row;
+}
+
+@mixin dimensions($width,$height,$position,$image-path,$margin-position) {
+  width: $width;
+  height: $height;
+  background-position: $position;
+  background: url("#{$image-path}");
+  margin: $margin-position;
+}
+
+.brand_logo1 {
+  @include dimensions(300px,300px,center top,"../images/logo2.svg",0 auto);
+}
+
+.brand_logo2 {
+  @include dimensions(300px,300px,center top,"../images/logo3.svg",0 auto);
+}
+
+.brand_logo3 {
+  @include dimensions(300px,300px,center top,"../images/logo1.svg",0 auto);
+}
+
+.brand_logo4 {
+  @include dimensions(300px,300px,center top,"../images/logo15.svg",0 auto);
+}
+
+.brand_logo5 {
+  @include dimensions(300px,300px,center top,"../images/logo16.svg",0 auto);
+}
+
+.brand_logo6 {
+  @include dimensions(300px,300px,center top,"../images/logo13.svg",0 auto);
+}
+
+.brand_logo7 {
+  @include dimensions(300px,300px,center top,"../images/logo12.svg",0 auto);
+}
+
+.brand_logo8 {
+  @include dimensions(300px,300px,center top,"../images/logo17.svg",0 auto);
+}
+
+.brand_logo9 {
+  @include dimensions(300px,300px,center top,"../images/logo6.svg",0 auto);
+}
+
+.brand_logo10 {
+  @include dimensions(300px,300px,center top,"../images/logo7.svg",0 auto);
+}
+
+.brand_logo11 {
+  @include dimensions(300px,300px,center top,"../images/logo5.svg",0 auto);
+}
+
+.brand_logo12 {
+  @include dimensions(300px,300px,center top,"../images/logo8.svg",0 auto);
+}
+
+.brand_logo13 {
+  @include dimensions(300px,300px,center top,"../images/logo4.svg",0 auto);
+}
+
+.brand_logo14 {
+  @include dimensions(300px,300px,center top,"../images/logo9.svg",0 auto);
+}
+
+.brand_logo15 {
+  @include dimensions(300px,300px,center top,"../images/logo10.svg",0 auto);
+}
+
+.brand_logo16 {
+  @include dimensions(300px,300px,center top,"../images/logo11.svg",0 auto);
+}
+
+@import "_footer";
+
+@media (max-width: 600px) {
+    #masthead {
+      background-color: pink !important;
+    }
+  }

@@ -1,0 +1,217 @@
+/*main.scss*/
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0; }
+
+.box1 {
+  background-color: #ff3a2c; }
+
+.box2 {
+  background-color: #191a19; }
+
+.box3 {
+  background-color: #65edd7; }
+
+.box4 {
+  background-color: #ffed00; }
+
+.box5 {
+  background-color: #187a8b; }
+
+.box6 {
+  background-color: #171619; }
+
+.box7 {
+  background-color: #f90001; }
+
+.box8 {
+  background-color: #f0f1f0; }
+
+.box9 {
+  background-color: #323332; }
+
+.box10 {
+  background-color: #007fe4; }
+
+.box11 {
+  background-color: #dfe0df; }
+
+.box12 {
+  background-color: #282424; }
+
+.box13 {
+  background-color: #bc0038; }
+
+.box14 {
+  background-color: #ffc900; }
+
+.box15 {
+  background-color: #b1b2b1; }
+
+.box16 {
+  background-color: #227c1b; }
+
+#container {
+  display: flex;
+  flex-direction: column; }
+
+.box {
+  height: 310px; }
+
+#masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid black; }
+  #masthead ul {
+    list-style-type: none;
+    display: flex;
+    margin: 5px; }
+
+.nav-links2 {
+  padding-left: 10px; }
+
+#nav-list {
+  flex-direction: row; }
+
+.brand_logo1 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo2.svg");
+  margin: 0 auto; }
+
+.brand_logo2 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo3.svg");
+  margin: 0 auto; }
+
+.brand_logo3 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo1.svg");
+  margin: 0 auto; }
+
+.brand_logo4 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo15.svg");
+  margin: 0 auto; }
+
+.brand_logo5 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo16.svg");
+  margin: 0 auto; }
+
+.brand_logo6 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo13.svg");
+  margin: 0 auto; }
+
+.brand_logo7 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo12.svg");
+  margin: 0 auto; }
+
+.brand_logo8 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo17.svg");
+  margin: 0 auto; }
+
+.brand_logo9 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo6.svg");
+  margin: 0 auto; }
+
+.brand_logo10 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo7.svg");
+  margin: 0 auto; }
+
+.brand_logo11 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo5.svg");
+  margin: 0 auto; }
+
+.brand_logo12 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo8.svg");
+  margin: 0 auto; }
+
+.brand_logo13 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo4.svg");
+  margin: 0 auto; }
+
+.brand_logo14 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo9.svg");
+  margin: 0 auto; }
+
+.brand_logo15 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo10.svg");
+  margin: 0 auto; }
+
+.brand_logo16 {
+  width: 300px;
+  height: 300px;
+  background-position: center top;
+  background: url("../images/logo11.svg");
+  margin: 0 auto; }
+
+#footer {
+  height: 100px;
+  background-color: black;
+  width: 100%;
+  color: #999;
+  display: flex;
+  align-items: center;
+  padding-left: 30px; }
+  #footer a {
+    color: #999; }
+
+@media (max-width: 600px) {
+  #masthead {
+    background-color: pink !important; } }
+
+/*# sourceMappingURL=main.css.map */
